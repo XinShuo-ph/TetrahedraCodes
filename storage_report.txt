@@ -1,0 +1,10 @@
+4.0G	.
+1.2G	./resample_xi
+1.2G	./jobsh
+718M	./PDF
+379M	./joberr
+336M	./legacy_bf20221106
+329M	./jobout
+1.5M	./.ipynb_checkpoints
+80K	./__pycache__
+32K	./pk

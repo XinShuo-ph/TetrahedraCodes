@@ -1,0 +1,10 @@
+job*/
+*.sh
+*.err
+*.out
+*.npy
+*.pdf
+legacy*
+.ipynb_checkpoints/
+__pycache__/
+*/__pycache__/
