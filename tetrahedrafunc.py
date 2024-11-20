@@ -255,7 +255,7 @@ def p_lambda3_l3c_delta(lambda3, l3c, delta, sigma):
     ret = (-3/4*np.sqrt(10/np.pi)/sigma)*dif*np.exp(-5*dif**2/8/sigma**2)+0.5*(erf(dif*np.sqrt(10)/(4*sigma))+erf(dif*np.sqrt(10)/(2*sigma)))*np.heavyside(dif)
     return ret
 
-# Kofman's https://arxiv.org/abs/astro-ph/9311028
+# Eq 25 of Kofman's https://arxiv.org/abs/astro-ph/9311028
 def p_rho(rho,sigma):
     def bt(n,s):
         output= s * sqrt(5) *( 0.5 + np.cos( np.pi*2.0*(n-1)/3.0   + np.arccos( 54/rho/s**3 -1.0 )/3.0 ) )
